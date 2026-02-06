@@ -4,3 +4,9 @@ def factorial(n):
     return n*factorial(n-1)  # here we use recursion for finding factorial
 
 output=print(factorial(4))
+
+fact=1
+n=4
+for i in range(1,n+1):
+    fact*=i
+print(fact)
